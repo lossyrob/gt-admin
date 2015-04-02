@@ -19,10 +19,6 @@ crs = "EPSG:3857"
 pyramid = "true"
 clobber = "true"
 
-print data
-print table
-print layer
-
 subprocess.call("zip -d" + jar + "META-INF/ECLIPSEF.RSA", shell=True)
 subprocess.call("zip -d" + jar + "META-INF/ECLIPSEF.SF", shell=True)
 
